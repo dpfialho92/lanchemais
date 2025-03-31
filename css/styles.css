@@ -4,24 +4,24 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("./Imagens/fundo.png"); 
-   /*background: linear-gradient(to right, #E85D3D, #F28C62);*/
+    background: linear-gradient(to right, #E85D3D, #F28C62);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden; /* Evitar rolagem na página */
 }
 
-/* Fundo gradiente de vermelho para preto (da esquerda superior para a direita inferior) 
+/* Fundo gradiente de vermelho para preto (da esquerda superior para a direita inferior) */
 .gradient-background {
     
     background-size: contain; /* Garante que a imagem inteira apareça */
-    /*background-repeat: no-repeat; /* Evita repetição da imagem */
-    /*background-color: #E85D3D'*/
-   /* padding: 0px;
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-color: #E85D3D'
+    padding: 0px;
     flex: 1;
     display: flex;
-   /* flex-direction: column;
-    justify-content: flex-start;*/
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* Container principal */
