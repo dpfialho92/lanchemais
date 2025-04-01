@@ -13,12 +13,12 @@ body {
 /* Fundo gradiente de vermelho para preto (da esquerda superior para a direita inferior) */
 .gradient-background {
     background-image: url(../imagens/fundo.png);
-    background-size: contain; /* Garante que a imagem inteira apareça */
+    background-size: cover; /* Garante que a imagem inteira apareça */
     background-repeat: no-repeat; /* Evita repetição da imagem */
-    /*background-color: #E85D3D' */
+ /* background-color: #E85D3D */
     padding: 0px;
-    flex: 1;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: flex-start;
 }
